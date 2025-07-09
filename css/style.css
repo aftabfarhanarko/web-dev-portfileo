@@ -11,13 +11,21 @@
 
 /* Header Titel */
 
+header{
+      background-image: url('../imges/image.png');
+      background-repeat: no-repeat;
+      background-size: cover;
+}
 
 nav{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 180px;
 }
 .nav-titel{
     font-weight: bold;
-    font-size: 46px;
+    font-size: 56px;
 }
 nav ul li{
     list-style: none;
@@ -29,11 +37,30 @@ ul li a{
 }
 nav ul{
     display: flex;
-    
+    align-items: center;
 }
 
+/* Banner desing */
 
-
+.banner-contaner{
+    display: flex;
+    justify-content: space-between;  
+    margin: 0 130px 0 180px;  
+  
+}
+.text-banner{
+    width: 574px;
+}
+.banner-title1{
+    font-size: 30px;
+     color: #474747;
+}
+.banner-title2{
+    font-size: 56px;
+}
+.banner-img{
+    width: 574px;
+}
 
 /* Share Style */
 .text-primary{
@@ -42,4 +69,14 @@ nav ul{
 
 .praghrap-color{
     color: #474747;
+}
+
+.btn-primary{
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    background-color: #FD6E0A;
+    border: 0;
+    padding: 15px 20px;
+    border-radius: 5px;
 }

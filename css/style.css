@@ -8,11 +8,7 @@
 
 /* Header Titel */
 
-/* header{
-      background-image: url('../imges/image.png');
-      background-repeat: no-repeat;
-      background-size: cover;
-} */
+
 
 nav{
     display: flex;
@@ -81,6 +77,7 @@ main section{
 
 .praghrap-color{
     color: #474747;
+    cursor: pointer;
 }
 
 .btn-primary{
@@ -187,6 +184,35 @@ main section{
 }
 
 /* Footer */
-.icon-img8{
-    color: #FD6E0A;
-} 
+.fot-end{
+    background-color: #f3e0d3;
+    padding: 130px 150px ;
+
+}
+
+
+.clom{
+    display:flex ;
+    gap: 100px;
+
+}
+.colum2{
+
+}
+.titell , .colum2-tittle{
+    font-size: 35px;
+    font-weight: 700;
+    color: #474747;
+}
+
+footer input[type="name"], footer input[type="email"] , footer textarea{
+    height: 65px;
+    border-radius: 6px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    margin-bottom: 20px ;
+    border: none;
+    font-size: 19px;
+}

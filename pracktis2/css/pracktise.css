@@ -1,0 +1,225 @@
+
+.open-sans-new1 {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+  "wdth" 100;
+}
+
+/* header Section */
+.main-header{
+    background-color: #FFF8F3;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 160px;
+    align-items: center;
+}
+.headar-title{
+    font-size: 56px;
+}
+ul{
+    align-items: center;
+    display: flex;
+    gap: 30px;
+}
+nav ul li{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+}
+.new-style{
+    color: #FD6E0A;
+}
+.back-img{
+    width: 540px;
+}
+.headar-section{
+    display: flex;
+    padding: 30px 90px 40px 80px;
+}
+.headar-text{
+    padding: 70px;
+}
+.hup-teitle{
+    font-size: 35px;
+    color: rgb(110, 110, 110);
+}
+.full-tiltel{
+    font-size: 60px;
+}
+.dicepiton-header{
+    font-size: 19px;
+    color:  rgb(103, 102, 102);
+}
+
+/* Share Code Color */
+
+.primary-color{
+    color: rgb(103, 102, 102);
+    font-size: 21px;
+}
+
+.all-btnm-style{
+    text-decoration: none;
+    font-size: 20px;
+    background-color:#FD6E0A ;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+/* Main */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+main section{
+    margin-bottom: 120px;
+}
+/* About Section */
+.gap{
+    margin-bottom: 150px;
+}
+.about{
+    padding: 60px ;
+    margin: 0 auto;
+    background-color: #FFF8F3;
+}
+.title .title-about{
+    color: #4f4e4e;
+    font-size: 35px;
+    text-align: center;
+}
+.section-info{
+    display: flex;
+    justify-content: space-around;
+}
+.all-sec{
+    text-align: center;
+}
+.title{
+    font-size: 19px;
+    font-weight: 400;
+}
+.dicepiton-info{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* SKILL Section */
+.skill-title-dec{
+    text-align: center;
+}
+.my-skill{
+    font-size: 35px;
+    color: #4f4e4e;
+}
+
+.card-img{
+   width: 60px;
+}
+.my-skill-card{
+    display: flex;
+    gap: 20px;
+    margin-top: 80px;
+}
+.card{
+    box-shadow: 0px 6px 50px 1px  rgb(222, 222, 222);
+    gap: 20px;
+    padding: 30px;
+    border-radius: 5px;
+}
+.card-dicipiton{
+    color: #4f4e4e;
+    font-size: 18px;
+}
+
+/* Resume */
+.title-resume{
+    font-size: 35px;
+    color: #4f4e4e;
+    text-align: center;
+}
+.all-eaducation-skill{
+    display: flex;
+    gap: 30px;
+    padding-left: 60px;
+    margin-top: 100px;
+}
+.sub-titel{
+    font-size: 22px;
+    color: black;
+}
+.sub-sub-titl{
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: -13px;
+}
+
+.diciption-eaduction{
+    color: #4f4e4e;
+    font-size: 17px;
+    margin-top: 30px;
+}
+.resume-btn{
+    text-align: center;
+    margin-top: 60px;
+}
+
+/* Footer */
+
+.footer-website{
+    background-color: #FFF8F3;
+}
+.main-sec{
+    display: flex;
+    gap: 200px;
+    padding: 150px;
+}
+.foot-img{
+    width: 40px;
+    margin-top: 30px;
+}
+.footer-title{
+    font-size: 35px;
+}
+
+.footer-dicption{
+    font-size: 17px;
+    color: #4f4e4e;
+}
+
+/* Form */
+form{
+    display: block;
+    gap: 30px;
+}
+.test{
+    margin-bottom: 15px;
+    font-size: 19px;
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+}
+.test2{
+    padding: 10px;
+    font-size: 16px;
+    width: 260px;
+    border: none;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
+.test3{
+    border: none;
+    margin-bottom: 30px;
+    padding: 20px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
